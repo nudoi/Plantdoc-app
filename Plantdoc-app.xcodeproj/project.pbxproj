@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E29A84062E27A7F1000F3899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E29A83F02E27A7ED000F3899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E29A83F72E27A7ED000F3899;
+			remoteInfo = "Plantdoc-app";
+		};
+		E29A84102E27A7F1000F3899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E29A83F02E27A7ED000F3899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E29A83F72E27A7ED000F3899;
+			remoteInfo = "Plantdoc-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E29A83F82E27A7ED000F3899 /* Plantdoc-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plantdoc-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29A84052E27A7F1000F3899 /* Plantdoc-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plantdoc-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29A840F2E27A7F1000F3899 /* Plantdoc-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plantdoc-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E29A83FA2E27A7ED000F3899 /* Plantdoc-app */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Plantdoc-app";
+			sourceTree = "<group>";
+		};
+		E29A84082E27A7F1000F3899 /* Plantdoc-appTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Plantdoc-appTests";
+			sourceTree = "<group>";
+		};
+		E29A84122E27A7F1000F3899 /* Plantdoc-appUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Plantdoc-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E29A83F52E27A7ED000F3899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29A84022E27A7F1000F3899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29A840C2E27A7F1000F3899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E29A83EF2E27A7ED000F3899 = {
+			isa = PBXGroup;
+			children = (
+				E29A83FA2E27A7ED000F3899 /* Plantdoc-app */,
+				E29A84082E27A7F1000F3899 /* Plantdoc-appTests */,
+				E29A84122E27A7F1000F3899 /* Plantdoc-appUITests */,
+				E29A83F92E27A7ED000F3899 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E29A83F92E27A7ED000F3899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E29A83F82E27A7ED000F3899 /* Plantdoc-app.app */,
+				E29A84052E27A7F1000F3899 /* Plantdoc-appTests.xctest */,
+				E29A840F2E27A7F1000F3899 /* Plantdoc-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E29A83F72E27A7ED000F3899 /* Plantdoc-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29A84192E27A7F1000F3899 /* Build configuration list for PBXNativeTarget "Plantdoc-app" */;
+			buildPhases = (
+				E29A83F42E27A7ED000F3899 /* Sources */,
+				E29A83F52E27A7ED000F3899 /* Frameworks */,
+				E29A83F62E27A7ED000F3899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E29A83FA2E27A7ED000F3899 /* Plantdoc-app */,
+			);
+			name = "Plantdoc-app";
+			packageProductDependencies = (
+			);
+			productName = "Plantdoc-app";
+			productReference = E29A83F82E27A7ED000F3899 /* Plantdoc-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E29A84042E27A7F1000F3899 /* Plantdoc-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29A841C2E27A7F1000F3899 /* Build configuration list for PBXNativeTarget "Plantdoc-appTests" */;
+			buildPhases = (
+				E29A84012E27A7F1000F3899 /* Sources */,
+				E29A84022E27A7F1000F3899 /* Frameworks */,
+				E29A84032E27A7F1000F3899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E29A84072E27A7F1000F3899 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E29A84082E27A7F1000F3899 /* Plantdoc-appTests */,
+			);
+			name = "Plantdoc-appTests";
+			packageProductDependencies = (
+			);
+			productName = "Plantdoc-appTests";
+			productReference = E29A84052E27A7F1000F3899 /* Plantdoc-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E29A840E2E27A7F1000F3899 /* Plantdoc-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29A841F2E27A7F1000F3899 /* Build configuration list for PBXNativeTarget "Plantdoc-appUITests" */;
+			buildPhases = (
+				E29A840B2E27A7F1000F3899 /* Sources */,
+				E29A840C2E27A7F1000F3899 /* Frameworks */,
+				E29A840D2E27A7F1000F3899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E29A84112E27A7F1000F3899 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E29A84122E27A7F1000F3899 /* Plantdoc-appUITests */,
+			);
+			name = "Plantdoc-appUITests";
+			packageProductDependencies = (
+			);
+			productName = "Plantdoc-appUITests";
+			productReference = E29A840F2E27A7F1000F3899 /* Plantdoc-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E29A83F02E27A7ED000F3899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					E29A83F72E27A7ED000F3899 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					E29A84042E27A7F1000F3899 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E29A83F72E27A7ED000F3899;
+					};
+					E29A840E2E27A7F1000F3899 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E29A83F72E27A7ED000F3899;
+					};
+				};
+			};
+			buildConfigurationList = E29A83F32E27A7ED000F3899 /* Build configuration list for PBXProject "Plantdoc-app" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E29A83EF2E27A7ED000F3899;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E29A83F92E27A7ED000F3899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E29A83F72E27A7ED000F3899 /* Plantdoc-app */,
+				E29A84042E27A7F1000F3899 /* Plantdoc-appTests */,
+				E29A840E2E27A7F1000F3899 /* Plantdoc-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E29A83F62E27A7ED000F3899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29A84032E27A7F1000F3899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29A840D2E27A7F1000F3899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E29A83F42E27A7ED000F3899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29A84012E27A7F1000F3899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29A840B2E27A7F1000F3899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E29A84072E27A7F1000F3899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E29A83F72E27A7ED000F3899 /* Plantdoc-app */;
+			targetProxy = E29A84062E27A7F1000F3899 /* PBXContainerItemProxy */;
+		};
+		E29A84112E27A7F1000F3899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E29A83F72E27A7ED000F3899 /* Plantdoc-app */;
+			targetProxy = E29A84102E27A7F1000F3899 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E29A84172E27A7F1000F3899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E29A84182E27A7F1000F3899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E29A841A2E27A7F1000F3899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hogehoge.Plantdoc-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E29A841B2E27A7F1000F3899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hogehoge.Plantdoc-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E29A841D2E27A7F1000F3899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hogehoge.Plantdoc-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plantdoc-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plantdoc-app";
+			};
+			name = Debug;
+		};
+		E29A841E2E27A7F1000F3899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hogehoge.Plantdoc-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plantdoc-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Plantdoc-app";
+			};
+			name = Release;
+		};
+		E29A84202E27A7F1000F3899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hogehoge.Plantdoc-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Plantdoc-app";
+			};
+			name = Debug;
+		};
+		E29A84212E27A7F1000F3899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hogehoge.Plantdoc-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Plantdoc-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E29A83F32E27A7ED000F3899 /* Build configuration list for PBXProject "Plantdoc-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29A84172E27A7F1000F3899 /* Debug */,
+				E29A84182E27A7F1000F3899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29A84192E27A7F1000F3899 /* Build configuration list for PBXNativeTarget "Plantdoc-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29A841A2E27A7F1000F3899 /* Debug */,
+				E29A841B2E27A7F1000F3899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29A841C2E27A7F1000F3899 /* Build configuration list for PBXNativeTarget "Plantdoc-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29A841D2E27A7F1000F3899 /* Debug */,
+				E29A841E2E27A7F1000F3899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29A841F2E27A7F1000F3899 /* Build configuration list for PBXNativeTarget "Plantdoc-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29A84202E27A7F1000F3899 /* Debug */,
+				E29A84212E27A7F1000F3899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E29A83F02E27A7ED000F3899 /* Project object */;
+}
