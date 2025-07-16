@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E29A84492E27C3B6000F3899 /* plantdoc_resnet18.mlpackage in Resources */ = {isa = PBXBuildFile; fileRef = E29A84482E27C3B6000F3899 /* plantdoc_resnet18.mlpackage */; };
+		E29A844E2E27C3B6000F3899 /* Plantdoc_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A844C2E27C3B6000F3899 /* Plantdoc_appApp.swift */; };
+		E29A844F2E27C3B6000F3899 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A844D2E27C3B6000F3899 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E29A84062E27A7F1000F3899 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +33,13 @@
 		E29A83F82E27A7ED000F3899 /* Plantdoc-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plantdoc-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29A84052E27A7F1000F3899 /* Plantdoc-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plantdoc-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29A840F2E27A7F1000F3899 /* Plantdoc-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plantdoc-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29A84482E27C3B6000F3899 /* plantdoc_resnet18.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper.mlpackage; path = plantdoc_resnet18.mlpackage; sourceTree = "<group>"; };
+		E29A844A2E27C3B6000F3899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29A844C2E27C3B6000F3899 /* Plantdoc_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plantdoc_appApp.swift; sourceTree = "<group>"; };
+		E29A844D2E27C3B6000F3899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E29A83FA2E27A7ED000F3899 /* Plantdoc-app */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Plantdoc-app";
-			sourceTree = "<group>";
-		};
 		E29A84082E27A7F1000F3899 /* Plantdoc-appTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Plantdoc-appTests";
@@ -92,6 +97,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E29A83FA2E27A7ED000F3899 /* Plantdoc-app */ = {
+			isa = PBXGroup;
+			children = (
+				E29A844A2E27C3B6000F3899 /* Info.plist */,
+				E29A844C2E27C3B6000F3899 /* Plantdoc_appApp.swift */,
+				E29A844D2E27C3B6000F3899 /* ContentView.swift */,
+				E29A84482E27C3B6000F3899 /* plantdoc_resnet18.mlpackage */,
+			);
+			path = "Plantdoc-app";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +122,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				E29A83FA2E27A7ED000F3899 /* Plantdoc-app */,
 			);
 			name = "Plantdoc-app";
 			packageProductDependencies = (
@@ -212,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29A84492E27C3B6000F3899 /* plantdoc_resnet18.mlpackage in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29A844E2E27C3B6000F3899 /* Plantdoc_appApp.swift in Sources */,
+				E29A844F2E27C3B6000F3899 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,8 +411,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78FJRJ4MPN;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Plantdoc-app/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "植物の病気を診断するためにカメラを使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -422,8 +441,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78FJRJ4MPN;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Plantdoc-app/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "植物の病気を診断するためにカメラを使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,0 +1,4 @@
+.DS_Store
+plantdoc-ml/models/*
+plantdoc-ml/PlantDoc-Dataset/*
+Plantdoc-app/plantdoc_resnet18.mlpackage/*
