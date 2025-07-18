@@ -39,18 +39,18 @@
 		E29A844D2E27C3B6000F3899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXGroup section */
 		E29A84082E27A7F1000F3899 /* Plantdoc-appTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
+			isa = PBXGroup;
 			path = "Plantdoc-appTests";
 			sourceTree = "<group>";
 		};
 		E29A84122E27A7F1000F3899 /* Plantdoc-appUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
+			isa = PBXGroup;
 			path = "Plantdoc-appUITests";
 			sourceTree = "<group>";
 		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* End PBXGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E29A83F52E27A7ED000F3899 /* Frameworks */ = {
@@ -143,9 +143,6 @@
 			dependencies = (
 				E29A84072E27A7F1000F3899 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				E29A84082E27A7F1000F3899 /* Plantdoc-appTests */,
-			);
 			name = "Plantdoc-appTests";
 			packageProductDependencies = (
 			);
@@ -165,9 +162,6 @@
 			);
 			dependencies = (
 				E29A84112E27A7F1000F3899 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E29A84122E27A7F1000F3899 /* Plantdoc-appUITests */,
 			);
 			name = "Plantdoc-appUITests";
 			packageProductDependencies = (
