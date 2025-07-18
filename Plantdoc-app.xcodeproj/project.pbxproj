@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E29A84492E27C3B6000F3899 /* plantdoc_resnet18.mlpackage in Resources */ = {isa = PBXBuildFile; fileRef = E29A84482E27C3B6000F3899 /* plantdoc_resnet18.mlpackage */; };
-		E29A844E2E27C3B6000F3899 /* Plantdoc_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A844C2E27C3B6000F3899 /* Plantdoc_appApp.swift */; };
+		E29A844E2E27C3B6000F3899 /* PlantdocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A844C2E27C3B6000F3899 /* PlantdocApp.swift */; };
 		E29A844F2E27C3B6000F3899 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A844D2E27C3B6000F3899 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +35,7 @@
 		E29A840F2E27A7F1000F3899 /* Plantdoc-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plantdoc-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29A84482E27C3B6000F3899 /* plantdoc_resnet18.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper.mlpackage; path = plantdoc_resnet18.mlpackage; sourceTree = "<group>"; };
 		E29A844A2E27C3B6000F3899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E29A844C2E27C3B6000F3899 /* Plantdoc_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plantdoc_appApp.swift; sourceTree = "<group>"; };
+		E29A844C2E27C3B6000F3899 /* PlantdocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantdocApp.swift; sourceTree = "<group>"; };
 		E29A844D2E27C3B6000F3899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				E29A844A2E27C3B6000F3899 /* Info.plist */,
-				E29A844C2E27C3B6000F3899 /* Plantdoc_appApp.swift */,
+				E29A844C2E27C3B6000F3899 /* PlantdocApp.swift */,
 				E29A844D2E27C3B6000F3899 /* ContentView.swift */,
 				E29A84482E27C3B6000F3899 /* plantdoc_resnet18.mlpackage */,
 			);
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E29A844E2E27C3B6000F3899 /* Plantdoc_appApp.swift in Sources */,
+				E29A844E2E27C3B6000F3899 /* PlantdocApp.swift in Sources */,
 				E29A844F2E27C3B6000F3899 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
