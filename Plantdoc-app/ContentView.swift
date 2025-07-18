@@ -22,14 +22,8 @@ struct ContentView: View {
     }
     
     var body: some View {
-        let _ = print("ContentView: bodyが呼ばれました")
-        let _ = print("ContentView: arViewModel = \(arViewModel)")
-        let _ = print("ContentView: arViewModel.isSetupComplete = \(arViewModel.isSetupComplete)")
         ZStack {
             // AR View
-            let _ = print("ARViewContainerを表示します")
-            let _ = print("arViewModel: \(arViewModel)")
-            let _ = print("arViewModel.arView: \(arViewModel.arView)")
             
             // ARViewContainerを確実に表示
             ARViewContainer(arViewModel: arViewModel)
@@ -664,11 +658,11 @@ class ARViewModel: NSObject, ObservableObject {
         var maxIndex = 0
         var maxValue: Float = -Float.infinity
         
-        for i in 0..<output.count {
-            let value = output[i].floatValue
+        for index in 0..<output.count {
+            let value = output[index].floatValue
             if value > maxValue {
                 maxValue = value
-                maxIndex = i
+                maxIndex = index
             }
         }
         
@@ -774,4 +768,3 @@ extension ARViewModel: ARSessionDelegate {
 #Preview {
     ContentView()
 }
-

@@ -72,7 +72,7 @@ final class Plantdoc_appTests: XCTestCase {
         measure {
             // 重い処理をここに配置
             for _ in 0..<1000 {
-                let _ = ARViewModel.ClassificationResult(
+                _ = ARViewModel.ClassificationResult(
                     className: "テスト",
                     confidence: 0.5
                 )
